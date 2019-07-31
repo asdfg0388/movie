@@ -1,0 +1,107 @@
+body{
+    background-color : #363B3B;
+    margin : 0;
+}
+.aTitleBox{
+    color : white;
+    height : 20px;
+    margin-top : 0px;
+}
+nav{
+    display : flex;
+    margin : 10px;
+}
+.searchBox{
+    text-align : center;
+    width : 80%;
+    padding : 5px;
+
+}
+.nameBtBox{
+    padding-top: 5px;
+}
+#nameBt{
+    width : 60px;
+    height : 30px;
+    border-radius : 5px;
+    background-color : #8CF7EF;
+    border-style : none;
+    font-weight : bold;
+}
+.myPageBtBox{
+    padding-top : 5px;
+}
+#myPageBt{
+    border-style : none;
+    background-color :  #363B3B;
+    height : 30px;
+    color : white;
+}
+#Title{
+    font-size : 30px;
+    display : inline;
+}
+#searchBar{
+    height : 30px;
+    width : 80%;
+    border-radius : 3px;
+    border-style : none;
+}
+
+#centerimg{
+    text-align : center;
+}
+
+
+
+/*main*/
+#main{
+    display: flex;
+    background-color: green;
+    height: 300px;
+}
+
+#sub{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid yellow;
+    padding: 2px 2px 2px 200px;
+}
+
+#gamediscription{
+    color: white;
+    border: 5px solid yellow;
+    text-align: justify;
+    width: 800px;
+    height: 200px;
+    line-height: 2;
+    letter-spacing: 1.5px;
+    padding: 2px 50px 2px 50px;
+}
+
+#goodbutton{
+    border: 5px solid yellow;
+    padding: 2px 2px 2px 80px;
+}
+
+.carousel-inner{
+    text-align: center;
+}
+
+
+.container{
+    width: 100%;
+    position: relative;
+    top: 100px;
+    left: 250px;
+}
+.sameCompanyGames{
+    background-color : white;
+    border:0.5px solid black;
+    width: 950px; 
+}
+
+.sameCompanyGames > div {
+    display: inline-block;
+    margin: 10px;
+}
